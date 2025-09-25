@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Parkinsans:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Parkinsans:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Yuji+Mai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #6e6e6e; */
+}
+
+.container{
+    width: 100vw;
+    height: 110vh;
+    z-index: -1;
+    --tw-bg-opacity: 1;
+    background-color: black;
+    font-family: 'Baloo Bhaina 2';
+    color: white;
+}
+
+.box{
+    display: grid;
+    /* border: 2px solid red; */
+    width: 70vw;
+    height: 85vh;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-columns: 50vw 20vw;
+    font-size: 1.5em;
+    row-gap: 15px;
+    overflow-y: scroll;
+}
+
+.stuDesign{
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    gap: 20px;
+    border-radius: 7px;
+}
+
+.designInp{
+    border: 1.1px solid white;
+    background-color: black;
+    color: white;
+    height: 57px;
+    width: 19.7vw;
+    border-radius: 7px;
+}
+
+.mar{
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.mar ::placeholder{
+    font-size: 1.5em;
+}
+
+.finalbtn{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.finalbtn> button{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgb(126 34 206 / var(--tw-bg-opacity));
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+    border-radius: 15px;
+    cursor: pointer;
+}
