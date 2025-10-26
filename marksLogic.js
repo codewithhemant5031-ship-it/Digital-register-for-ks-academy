@@ -78,6 +78,18 @@ let n19 = document.getElementById("stu19Name");
 let name19 = n19.innerText;
 name_arr.push(name19);
 
+let n20 = document.getElementById("stu20Name");
+let name20 = n20.innerText;
+name_arr.push(name20);
+
+let n21 = document.getElementById("stu21Name");
+let name21 = n21.innerText;
+name_arr.push(name21);
+
+let n22 = document.getElementById("stu22Name");
+let name22 = n22.innerText;
+name_arr.push(name22);
+
 for (const e of name_arr) {
     console.log(e)
 }
@@ -160,6 +172,19 @@ marks_arr.push(marks18);
 let m19 = document.getElementById("marksStu19");
 let marks19 = m19.value
 marks_arr.push(marks19);
+
+let m20 = document.getElementById("marksStu20");
+let marks20 = m20.value
+marks_arr.push(marks20);
+
+let m21 = document.getElementById("marksStu21");
+let marks21 = m21.value
+marks_arr.push(marks21);
+
+let m22 = document.getElementById("marksStu22");
+let marks22 = m22.value
+marks_arr.push(marks22);
+
 for (const e of marks_arr) {
     console.log(e)
 }

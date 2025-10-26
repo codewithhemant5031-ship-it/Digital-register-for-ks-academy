@@ -332,6 +332,57 @@ btnpre19.addEventListener("click", () => {
     let name = n.slice(5)
     present_students.push(name)
     div19.style.border = "2px solid green"
+})
+let btnabs19 = document.getElementById('btnabs19')
+btnabs19.addEventListener("click", () => {
+    div19.style.border = "2px solid red"
+    let n = document.getElementById('stu19').innerText;
+    let name = n.slice(5)
+    absent_students.push(name)
+    })
+
+// Its box 20
+let div20 = document.getElementById('box20')
+let btnpre20 = document.getElementById('btnpre20')
+btnpre20.addEventListener("click", () => {
+    let n = document.getElementById("stu20").innerText;
+    let name = n.slice(5)
+    present_students.push(name)
+    div20.style.border = "2px solid green"
+})
+let btnabs20 = document.getElementById('btnabs20')
+btnabs20.addEventListener("click", () => {
+    div20.style.border = "2px solid red"
+    let n = document.getElementById('stu20').innerText;
+    let name = n.slice(5)
+    absent_students.push(name)
+    })
+
+// Its box 21
+let div21 = document.getElementById('box21')
+let btnpre21 = document.getElementById('btnpre21')
+btnpre21.addEventListener("click", () => {
+    let n = document.getElementById("stu21").innerText;
+    let name = n.slice(5)
+    present_students.push(name)
+    div21.style.border = "2px solid green"
+})
+let btnabs21 = document.getElementById('btnabs21')
+btnabs21.addEventListener("click", () => {
+    div21.style.border = "2px solid red"
+    let n = document.getElementById('stu21').innerText;
+    let name = n.slice(5)
+    absent_students.push(name)
+    })
+
+// Its box 22
+let div22 = document.getElementById('box22')
+let btnpre22 = document.getElementById('btnpre22')
+btnpre22.addEventListener("click", () => {
+    let n = document.getElementById("stu22").innerText;
+    let name = n.slice(5)
+    present_students.push(name)
+    div22.style.border = "2px solid green"
     console.log("Present students are--->")
     for (const elem1 of present_students) {
         console.log(elem1)
@@ -345,10 +396,10 @@ btnpre19.addEventListener("click", () => {
     let totabs = document.getElementById('totabs')
     totabs.innerText = "Absent students: " + (absent_students.length)
 })
-let btnabs19 = document.getElementById('btnabs19')
-btnabs19.addEventListener("click", () => {
-    div19.style.border = "2px solid red"
-    let n = document.getElementById('stu19').innerText;
+let btnabs22 = document.getElementById('btnabs22')
+btnabs22.addEventListener("click", () => {
+    div22.style.border = "2px solid red"
+    let n = document.getElementById('stu22').innerText;
     let name = n.slice(5)
     absent_students.push(name)
     console.log("Present students are--->")
@@ -385,4 +436,5 @@ button.addEventListener("click", ()=>{
 // It's end of the register and present, absent is now ended..!!
 
 
-// Finally it's all complete😭😭 khushi ke aansu hai laude😛😜
+// Finally it's all complete😭😭 khushi ke aansu hai 😛😜
+
