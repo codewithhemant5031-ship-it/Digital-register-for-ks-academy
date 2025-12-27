@@ -23,41 +23,6 @@ btnabs1.addEventListener("click", () => {
     absent_students.push(name)
 })
 
-// It's Box 2
-let div2 = document.getElementById('box2')
-let btnpre2 = document.getElementById('btnpre2')
-btnpre2.addEventListener("click", () => {
-    let n = document.getElementById("stu2").innerText;
-    let name = n.slice(5)
-    // console.log(name)
-    present_students.push(name)
-    div2.style.border = "2px solid green"
-})
-let btnabs2 = document.getElementById('btnabs2')
-btnabs2.addEventListener("click", () => {
-    div2.style.border = "2px solid red"
-    let n = document.getElementById('stu2').innerText;
-    let name = n.slice(5)
-    // console.log(name)
-    absent_students.push(name)
-})
-
-// It is box 3
-let div3 = document.getElementById('box3')
-let btnpre3 = document.getElementById('btnpre3')
-btnpre3.addEventListener("click", () => {
-    let n = document.getElementById("stu3").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div3.style.border = "2px solid green"
-})
-let btnabs3 = document.getElementById('btnabs3')
-btnabs3.addEventListener("click", () => {
-    div3.style.border = "2px solid red"
-    let n = document.getElementById('stu3').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-})
 
 // It's box 4
 let div4 = document.getElementById('box4')
@@ -78,21 +43,6 @@ btnabs4.addEventListener("click", () => {
 })
 
 // It's box 5
-let div5 = document.getElementById('box5')
-let btnpre5 = document.getElementById('btnpre5')
-btnpre5.addEventListener("click", () => {
-    let n = document.getElementById("stu5").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div5.style.border = "2px solid green"
-})
-let btnabs5 = document.getElementById('btnabs5')
-btnabs5.addEventListener("click", () => {
-    div5.style.border = "2px solid red"
-    let n = document.getElementById('stu5').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-})
 
 // It's box 6
 let div6 = document.getElementById('box6')
@@ -112,21 +62,6 @@ btnabs6.addEventListener("click", () => {
 })
 
 // Its box 7
-let div7 = document.getElementById('box7')
-let btnpre7 = document.getElementById('btnpre7')
-btnpre7.addEventListener("click", () => {
-    let n = document.getElementById("stu7").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div7.style.border = "2px solid green"
-})
-let btnabs7 = document.getElementById('btnabs7')
-btnabs7.addEventListener("click", () => {
-    div7.style.border = "2px solid red"
-    let n = document.getElementById('stu7').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-})
 
 // Its box 8
 let div8 = document.getElementById('box8')
@@ -163,22 +98,6 @@ btnabs9.addEventListener("click", () => {
 })
 
 // Its box 10
-let div10 = document.getElementById('box10')
-let btnpre10 = document.getElementById('btnpre10')
-btnpre10.addEventListener("click", () => {
-    let n = document.getElementById("stu10").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div10.style.border = "2px solid green"
-    
-})
-let btnabs10 = document.getElementById('btnabs10')
-btnabs10.addEventListener("click", () => {
-    div10.style.border = "2px solid red"
-    let n = document.getElementById('stu10').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-    })
 
 // Its box 11
 let div11 = document.getElementById('box11')
@@ -199,22 +118,7 @@ btnabs11.addEventListener("click", () => {
     })
 
 // Its box 12
-let div12 = document.getElementById('box12')
-let btnpre12 = document.getElementById('btnpre12')
-btnpre12.addEventListener("click", () => {
-    let n = document.getElementById("stu12").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div12.style.border = "2px solid green"
-    
-})
-let btnabs12 = document.getElementById('btnabs12')
-btnabs12.addEventListener("click", () => {
-    div12.style.border = "2px solid red"
-    let n = document.getElementById('stu12').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-    })
+
 
 // Its box 13
 let div13 = document.getElementById('box13')
@@ -359,21 +263,7 @@ btnabs20.addEventListener("click", () => {
     })
 
 // Its box 21
-let div21 = document.getElementById('box21')
-let btnpre21 = document.getElementById('btnpre21')
-btnpre21.addEventListener("click", () => {
-    let n = document.getElementById("stu21").innerText;
-    let name = n.slice(5)
-    present_students.push(name)
-    div21.style.border = "2px solid green"
-})
-let btnabs21 = document.getElementById('btnabs21')
-btnabs21.addEventListener("click", () => {
-    div21.style.border = "2px solid red"
-    let n = document.getElementById('stu21').innerText;
-    let name = n.slice(5)
-    absent_students.push(name)
-    })
+
 
 // Its box 22
 let div22 = document.getElementById('box22')
